@@ -16,7 +16,7 @@ function activate() {
         return;
     }
     populateGrid(key.value, searchTerm.value);
-    spinnerEl.src = `New Folder/Rolling-1s-200px.svg`
+    spinnerEl.src = `./New Folder/Rolling-1s-200px.svg`
     grid.appendChild(spinnerEl);
 }
 
